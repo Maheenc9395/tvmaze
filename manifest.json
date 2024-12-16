@@ -1,0 +1,50 @@
+
+
+{
+    "theme_color":"#949494",
+    "background_color":"#969696",
+    "icons":[
+       {
+          "purpose":"maskable",
+          "sizes":"512x512",
+          "src":"icons/icon512_maskable.png",
+          "type":"image/png"
+       },
+       {
+          "purpose":"any",
+          "sizes":"512x512",
+          "src":"icons/icon512_rounded.png",
+          "type":"image/png"
+       }
+    ],
+    "start_url":"/",
+    "scope":"/",
+    "orientation":"any",
+    "display":"standalone",
+    "dir":"auto",
+    "lang":"en-US",
+    "name":"Tv Maze",
+    "short_name":"Tv Maze"
+  
+ }
+
+
+"screenshots": 
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    },
+    {
+      "src": "screenshots/screenshot2.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "purpose": "any"
+    }
+ 
+                       
+                         
+
+   
