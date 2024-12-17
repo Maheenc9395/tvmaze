@@ -1,4 +1,25 @@
-let apiURL = 'http://api.tvmaze.com/';
+// load the service worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+      console.log('Service Worker registered with scope:', registration.scope);
+    }, function(error) {
+      console.log('Service Worker registration failed:', error);
+    });
+  });
+}                    
+
+
+
+
+
+
+
+
+
+
+
+let apiURL = 'https://api.tvmaze.com/';
 
 // initialize page after HTML loads
 window.onload = function() {
@@ -232,12 +253,12 @@ function showEpisodes (data, elemDiv) {
 
 
 function showLightBox(episodeNumber){
-  fetch('http://api.tvmaze.com/episodes/' + episodeNumber)
+  fetch('https://api.tvmaze.com/episodes/' + episodeNumber)
  .then(response => response.json())
  .then(data => createEpisode(data));
 
 
-// document.getElementById("message").innerHTML = 'http://api.tvmaze.com/episodes/' + episodeNumber;    
+// document.getElementById("message").innerHTML = 'https://api.tvmaze.com/episodes/' + episodeNumber;    
 
 } // showLightBox
 

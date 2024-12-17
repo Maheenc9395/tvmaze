@@ -1,4 +1,6 @@
 
+ 
+                 
 
 {
     "theme_color":"#949494",
@@ -17,19 +19,19 @@
           "type":"image/png"
        }
     ],
-    "start_url":"/",
+    "start_url":"Maheenc9395.github.io/",
     "scope":"/",
     "orientation":"any",
     "display":"standalone",
     "dir":"auto",
     "lang":"en-US",
     "name":"Tv Maze",
-    "short_name":"Tv Maze"
+    "short_name":"Tv Maze",
   
- }
+     "screenshots": [
 
+     
 
-"screenshots": 
     {
       "src": "screenshots/screenshot1.png",
       "sizes": "1280x720",
@@ -43,8 +45,6 @@
       "type": "image/png",
       "purpose": "any"
     }
- 
-                       
-                         
-
-   
+   ]                         
+   }
+     
