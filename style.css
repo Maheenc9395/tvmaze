@@ -25,11 +25,18 @@
 
 #button{
   color:white;
-  background-color:lightgrey;
+  background-color:black;
   border-radius: 8px;
 
 }
 
+#installButton{
+  color:white;
+  background-color:black;
+  border-radius: 8px;
+
+
+}
 
 #search{
   border-radius:8px;
@@ -43,7 +50,7 @@
 
 #h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color:white;
+  color:black;
   text-align:center;
 }
 

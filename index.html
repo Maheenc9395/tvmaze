@@ -7,7 +7,7 @@
     <!-- include an external style sheet -->
     <link rel="stylesheet" href="style.css">  
     <link rel="manifest" href="manifest.json">
-
+    <link rel="icons" href="icons.json">
     <!-- include an external JavaScript file -->
     <script src="apiexample.js"></script>
     <script src="sw.js"></script>
@@ -15,10 +15,10 @@
   
   <body id="body">
      <h1 id="h1">TV Shows at TV Maze</h1>
-   
-     <input type="text" id="search">
+     <label for="search">Search Tv Show</label> <input type="text" id="search">
      <button id="button">Look Up a TV Show</button>
-    
+     <br><br><br>
+    <button id="installButton" style="display: none,">Install App</button>
      <div id="main">
     
      </div>
