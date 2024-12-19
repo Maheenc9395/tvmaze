@@ -1,4 +1,5 @@
 // handle install prompt
+//MAKE A FOR LOOP!!!
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {

@@ -34,17 +34,19 @@
 
     {
       "src": "screenshots/screenshot1.png",
-      "sizes": "1280x720",
+      "sizes": "1109x914",
       "type": "image/png",
       "form_factor": "wide",
       "purpose": "any"
     },
     {
       "src": "screenshots/screenshot2.png",
-      "sizes": "720x1280",
+      "sizes": "1098x895",
       "type": "image/png",
       "purpose": "any"
     }
    ]                         
    }
      
+
+   
