@@ -11,8 +11,8 @@ if ('serviceWorker' in navigator) {
  
 
 // Define cache names
-const CACHE_NAME = 'my-app-cache-v2';
-const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v2';
+const CACHE_NAME = 'my-app-cache-v3';
+const DYNAMIC_CACHE_NAME = 'my-app-dynamic-cache-v3';
 
 // Files to cache during install
 const STATIC_ASSETS = [
