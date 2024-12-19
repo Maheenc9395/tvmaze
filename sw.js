@@ -23,7 +23,6 @@ const STATIC_ASSETS = [
 '/manifest.json',
 '/icons.json',
 '/android',
-'/screenshots',
 '/icons',
 '/tv.png',
 '/icons/icon512_rounded.png',
