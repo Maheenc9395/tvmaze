@@ -1,4 +1,5 @@
 // handle install prompt
+//MAKE A FOR LOOP!!!
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
@@ -315,7 +316,6 @@ output.appendChild(name);
 output.appendChild(season);
 
 } // createEpisode
-
 
 
 
