@@ -19,7 +19,7 @@
           "type":"image/png"
        }
     ],
-    "start_url":"maheenc9395.github.io/tvmaze1/",
+    "start_url":"Maheenc9395.github.io/",
     "scope":"/",
     "orientation":"any",
     "display":"standalone",
@@ -34,19 +34,17 @@
 
     {
       "src": "screenshots/screenshot1.png",
-      "sizes": "1109x914",
+      "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
       "purpose": "any"
     },
     {
       "src": "screenshots/screenshot2.png",
-      "sizes": "1098x895",
+      "sizes": "720x1280",
       "type": "image/png",
       "purpose": "any"
     }
    ]                         
    }
      
-
-   
