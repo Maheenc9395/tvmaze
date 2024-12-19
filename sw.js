@@ -27,9 +27,9 @@ const STATIC_ASSETS = [
 '/tv.png',
 '/icons/icon512_rounded.png',
 '/icons/icon512_maskable.png',
-'/screenshots/Screenshot.png',
-'/screenshots/Screenshot1.png',
-'/screenshots/Screenshot2.png',
+'/Screenshots/Screenshot.png',
+'/Screenshots/Screenshot1.png',
+'/Screenshots/Screenshot2.png',
 
 // Add other static files you want to cache
 ];
